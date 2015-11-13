@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="48e7d908-0a3d-4548-a1b8-a6c5848e0f64" solutionId="48e7d908-0a3d-4548-a1b8-a6c5848e0f64" resetWebServer="false" sharePointProductVersion="15.0" name="ConvertToPdf" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <assemblies>
+    <customAssembly location="itextsharp.dll" deploymentTarget="GlobalAssemblyCache" sourcePath="..\packages\iTextSharp.5.5.4\lib\itextsharp.dll" />
+  </assemblies>
+  <features>
+    <featureReference itemId="b4bd42ad-e29a-4803-85dc-0225ef6e68e0" />
+  </features>
+</package>

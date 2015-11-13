@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="48e7d908-0a3d-4548-a1b8-a6c5848e0f64" SharePointProductVersion="15.0">
+  <Assemblies>
+    <Assembly Location="itextsharp.dll" DeploymentTarget="GlobalAssemblyCache" />
+    <Assembly Location="ConvertToPdf.dll" DeploymentTarget="GlobalAssemblyCache">
+      <SafeControls>
+        <SafeControl Assembly="ConvertToPdf, Version=1.0.0.0, Culture=neutral, PublicKeyToken=87aeff9f259068fd" Namespace="ConvertToPdf.PDFConvertor" TypeName="*" />
+      </SafeControls>
+    </Assembly>
+  </Assemblies>
+  <FeatureManifests>
+    <FeatureManifest Location="ConvertToPdf_Site.PDFConvertor\Feature.xml" />
+  </FeatureManifests>
+</Solution>

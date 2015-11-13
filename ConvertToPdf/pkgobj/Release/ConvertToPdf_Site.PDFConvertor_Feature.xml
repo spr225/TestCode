@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Description="Add a PDF Convertor webparts to the site." Id="b4bd42ad-e29a-4803-85dc-0225ef6e68e0" Scope="Site" Title="PDF Convertor WebPart">
+  <ElementManifests>
+    <ElementManifest Location="PDFConvertor\Elements.xml" />
+    <ElementFile Location="PDFConvertor\PDFConvertor.webpart" />
+    <ElementManifest Location="ListItemToPdf\Elements.xml" />
+    <ElementFile Location="ListItemToPdf\ListItemToPdf.webpart" />
+  </ElementManifests>
+</Feature>

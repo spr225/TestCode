@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/" >
+  <Module Name="PDFConvertor" List="113" Url="_catalogs/wp">
+    <File Path="PDFConvertor\PDFConvertor.webpart" Url="ConvertToPdf_PDFConvertor.webpart" Type="GhostableInLibrary" >
+      <Property Name="Group" Value="PDFConverter" />
+    </File>
+  </Module>
+</Elements>
